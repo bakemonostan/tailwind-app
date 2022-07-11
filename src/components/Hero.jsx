@@ -1,6 +1,5 @@
 import {
   CloudDownloadIcon,
-  CloudUploadIcon,
   DatabaseIcon,
   PaperAirplaneIcon,
   ServerIcon,
