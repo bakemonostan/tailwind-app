@@ -28,8 +28,8 @@ const Navbar = () => {
           <button className='px-8 py-3'>Sign Up</button>
         </div>
         <div className='md:hidden' onClick={handleClick}>
-          {nav && <MenuIcon className='w-10 cursor-pointer' />}
-          {!nav && <XIcon className='w-10 cursor-pointer' />}
+          {nav && <MenuIcon className='w-10 mr-4 cursor-pointer' />}
+          {!nav && <XIcon className='w-10 mr-4 cursor-pointer' />}
         </div>
       </div>
       {!nav && (
