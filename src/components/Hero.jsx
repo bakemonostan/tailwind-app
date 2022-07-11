@@ -1,9 +1,9 @@
 import {
-  CloudDownloadIcon,
+  CloudUploadIcon,
   DatabaseIcon,
   PaperAirplaneIcon,
   ServerIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/solid';
 
 import bgImg from '../assets/cyber-bg.png';
 
@@ -26,7 +26,7 @@ const Hero = () => {
           <p>Data Services</p>
           <div className='flex justify-between flex-wrap px-4'>
             <p className='flex px-4 py-2 text-slate-500'>
-              <CloudDownloadIcon className='h-6 text-indigo-600' /> App Security
+              <CloudUploadIcon className='h-6 text-indigo-600' /> App Security
             </p>
             <p className='flex px-4 py-2 text-slate-500'>
               <DatabaseIcon className='h-6 text-indigo-600' /> DashBoard Design
